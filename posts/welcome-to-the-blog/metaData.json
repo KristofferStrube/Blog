@@ -1,0 +1,13 @@
+{
+  "Title": "Welcome to the blog",
+  "UrlPath": "welcome-to-the-blog",
+  "Description": "I used to blog for the 4 years that I worked at elmah.io writing a lot about Blazor and .NET; Often in the format of some kind of tutorial or walk-along style article. I stopped my work there towards the end of 2021 as I began focusing on my other work as an instructor at that time. I have been thinking about blogging for others previously, but I feel like there is a lot of loops to get through for those as they of cause need to have a high level of quality. So, in this post I will introduce myself, show some of the projects that I have worked a lot with, and in the end talk about what I will blog about in the future.",
+  "Teaser": " In this post I introduce myself, show some of the projects that I have worked a lot with, and in the end talk about what I will blog about in the future.",
+  "ImagePath": "images/welcome.png",
+  "Tags": [
+    "welcome-to-the-blog"
+  ],
+  "AdditionalMetaTags": [],
+  "Content": "welcome-to-the-blog content",
+  "Date": "2023-02-17"
+}

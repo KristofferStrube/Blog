@@ -1,0 +1,31 @@
+{
+  "Name": "Kristoffer Strube\u2019s Blog",
+  "Teaser": ".NET, Blazor, and much more!",
+  "Description": "On this blog I will post about my hobby projects involving .NET, Blazor, browser specifications, and much more!",
+  "Image": "",
+  "Author": {
+    "Name": "",
+    "Contact": [
+      {
+        "DisplayText": "\uD83D\uDC18 Mastodon",
+        "URL": "https://hachyderm.io/@KristofferStrube",
+        "Image": null
+      },
+      {
+        "DisplayText": "\uD83E\uDD9C Twitter",
+        "URL": "https://twitter.com/KStrubeG",
+        "Image": null
+      },
+      {
+        "DisplayText": "\uD83D\uDC19 GitHub",
+        "URL": "https://github.com/KristofferStrube",
+        "Image": null
+      },
+      {
+        "DisplayText": "\uD83D\uDC54 LinkedIn",
+        "URL": "https://www.linkedin.com/in/kristofferstrube/",
+        "Image": null
+      }
+    ]
+  }
+}
