@@ -150,4 +150,8 @@ video {
     .footer-container {
         flex-direction: column;
     }
+
+    h1 {
+        font-size: 7vw;
+    }
 }
