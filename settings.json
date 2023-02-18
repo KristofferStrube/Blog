@@ -1,10 +1,13 @@
 {
   "Name": "Kristoffer Strube\u2019s Blog",
+  "URL": "https://kristoffer-strube.dk",
   "Teaser": ".NET, Blazor, and much more!",
   "Description": "On this blog I will post about my hobby projects involving .NET, Blazor, browser specifications, and much more!",
   "Image": "",
   "Author": {
-    "Name": "",
+    "Name": "Kristoffer Strube",
+    "Email": "blog@kristoffer-strube.dk",
+    "WebSite": "https://kristoffer-strube.dk",
     "Contact": [
       {
         "DisplayText": "\uD83D\uDC18 Mastodon",

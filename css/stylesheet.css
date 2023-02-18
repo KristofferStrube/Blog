@@ -40,6 +40,19 @@ footer {
     flex: 1;
 }
 
+.header-container {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 10px;
+}
+
+.header-item {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: end;
+}
+
 .title-container {
     display: flex;
     flex-direction: row;
@@ -57,6 +70,7 @@ footer {
 }
 
 h1 {
+    margin-top: 0px;
     margin-bottom: 8px;
     font-size: xxx-large;
 }
@@ -148,6 +162,10 @@ video {
     }
 
     .footer-container {
+        flex-direction: column;
+    }
+
+    .header-container {
         flex-direction: column;
     }
 

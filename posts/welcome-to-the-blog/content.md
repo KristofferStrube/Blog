@@ -7,7 +7,7 @@ The ones of you who know me from Twitter/Mastodon probably do so in the context 
 The first one is my [Blazor Wrapper for the File System Access API](https://github.com/KristofferStrube/Blazor.FileSystemAccess). This is a wrapper for a somewhat simple API, but also a very useful API as it enables the consumers of the API to interact with their local file system from the browser. This helps us move towards something a lot of Blazor developers want: Application-like websites. This is not the first wrapper that I have made for Blazor *(that is [Blazor.Popper](https://github.com/KristofferStrube/Blazor.Popper))*, but it is the project that I have learned the most from. It has also sprouted a handful of other API wrappers that I have worked on to facilitate rich interactions with the API like [Blazor.FileSystem](https://github.com/KristofferStrube/Blazor.FileSystem), [Blazor.FileAPI](https://github.com/KristofferStrube/Blazor.FileAPI), and [Blazor.Streams](https://github.com/KristofferStrube/Blazor.Streams). Through my work with these I have built myself a good standard for how to wrap browser API's in Blazor and have begun to wrap some of the lower level APIs like the DOM API.
 
 <video width="500" autoplay muted controls>
-<source src="../videos/Zip_and_IndexedDB.mp4" type="video/mp4">
+<source src="{site}/videos/Zip_and_IndexedDB.mp4" type="video/mp4">
 A video showing some of the functionality of the File System Access API wrapper
 </video>
 
