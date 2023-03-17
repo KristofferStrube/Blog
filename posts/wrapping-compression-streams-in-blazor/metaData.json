@@ -1,0 +1,14 @@
+{
+  "Title": "Wrapping Compression Streams in Blazor",
+  "UrlPath": "wrapping-compression-streams-in-blazor",
+  "Description": "Most modern browsers implement the Compression Streams API. The API defines two interfaces CompressionStream and DecompressionStream which can be used in connection with the browser Streams API to compress and decompress data while it is streamed. This can be useful in scenarios where bandwidth is limited or where huge data blobs are streamed to and from a client. In this article, we will wrap the Compression Streams API in Blazor using definitions from the Blazor.Streams library, and in the end we will make a small Blazor WASM sample that uses it to validate its behavior.",
+  "Teaser": "In this post we go through how to wrap the Compression Streams API in Blazor and we make a small demo that uses the wrapper.",
+  "ImagePath": "images/compressions-streams.png",
+  "Tags": [
+    "wrapping-compression-streams-in-blazor"
+  ],
+  "AdditionalMetaTags": [],
+  "Content": "wrapping-compression-streams-in-blazor content",
+  "PublishDate": "2023-03-17",
+  "LastUpdatedDate": "2023-03-17"
+}
