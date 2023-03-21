@@ -115,6 +115,10 @@ video {
     max-width: 100%;
 }
 
+iframe {
+    max-width: 100%;
+}
+
 .no-link-style {
     color: black;
     text-decoration: none;

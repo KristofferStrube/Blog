@@ -1,0 +1,15 @@
+{
+  "Title": "How to send push notifications to a browser in ASP.NET Core",
+  "UrlPath": "how-to-send-push-notifications-to-a-browser-in-asp-net-core",
+  "Description": "Progressive Web Apps (PWAs) enable a website to make make a lot of interactions that are app-like. Among these are Push Notifications. This is a functionality that enables you to make native notifications for many different devices and to invoke these notifications even when the browser is not active. A lot of websites like the Twitter web app use this functionality with its original intent, but there are of cause also sites that use it maliciously. In this article, we will show how you can subscribe to Push Notifications using ASP.NET Core and how you can send Push Notifications from .NET as well.",
+  "Teaser": "In this article, we will show how you can subscribe to Push Notifications using ASP.NET Core and how you can send Push Notifications from .NET as well.",
+  "ImagePath": "images/how-to-send-push-notifications-to-a-browser-in-asp-net-core.png",
+  "Tags": [
+    "how-to-send-push-notifications-to-a-browser-in-asp-net-core"
+  ],
+  "AdditionalMetaTags": [],
+  "CanonicalPostOrigin": "https://blog.elmah.io/how-to-send-push-notifications-to-a-browser-in-asp-net-core/",
+  "Content": "how-to-send-push-notifications-to-a-browser-in-asp-net-core content",
+  "PublishDate": "2023-03-22",
+  "LastUpdatedDate": "2023-03-22"
+}
