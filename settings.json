@@ -3,7 +3,7 @@
   "URL": "https://kristoffer-strube.dk",
   "Teaser": ".NET, Blazor, and much more!",
   "Description": "On this blog I will post about my hobby projects involving .NET, Blazor, browser specifications, and much more!",
-  "Image": "",
+  "Logo": "images/logo.png",
   "Author": {
     "Name": "Kristoffer Strube",
     "Email": "blog@kristoffer-strube.dk",

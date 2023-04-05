@@ -1,0 +1,15 @@
+{
+  "Title": "Typed SignalR Clients - Making type-safe real-time communication in .NET",
+  "UrlPath": "typed-signalr-clients-making-type-safe-real-time-communication-in-dotnet",
+  "Description": "A small feature that was introduced during one of the previews of .NET 7 was typed SignalR clients enabling us to develop real-time tools with type safety. This means that we can make a shared contract that defines which methods can be invoked on the SignalR hub and which can be invoked on the SignalR Client. This is possible by using source generators which have been a huge focus in .NET 7 in general. In this post, we will make a sticky note bulletin board in Blazor WASM and add real-time collaboration to it using a typed SignalR client to showcase how to use typed SignalR clients.",
+  "Teaser": "In this post, we will make a sticky note bulletin board in Blazor WASM and add real-time collaboration to it using a typed SignalR client to showcase how to use typed SignalR clients.",
+  "ImagePath": "images/typed-signalr-clients-making-type-safe-real-time-communication-in-dotnet.png",
+  "Tags": [
+    "typed-signalr-clients-making-type-safe-real-time-communication-in-dotnet"
+  ],
+  "AdditionalMetaTags": [],
+  "CanonicalPostOrigin": "",
+  "Content": "typed-signalr-clients-making-type-safe-real-time-communication-in-dotnet content",
+  "PublishDate": "2023-04-05",
+  "LastUpdatedDate": "2023-04-05"
+}
