@@ -9,7 +9,7 @@ I would also like to be able to move each sticky note to be able to communicate 
 #### Deletion
 After having written on the sticky notes I would like to be able to delete them again. I also want an option for deleting all sticky notes to clear the board.
 #### Locking
-When multiple users can move, write, and delete sticky the same notes then I would also like users to get a lock on a sticky note while they edit it i.e. so that others can intervene or move the note away while the user is writing on it.  _A disclaimer is that the only system concurrency-related education I have is on peer-2-peer systems and blockchains so I wouldn't use the same approaches as I have employed on a large scale system as they simply are my loose ideas for a concurrency heuristic._
+When multiple users can move, write, and delete the same sticky notes then I would also like users to get a lock on a sticky note while they edit it i.e. so that others can intervene or move the note away while the user is writing on it. _A disclaimer is that the only system concurrency-related education I have is on peer-2-peer systems and blockchains so I wouldn't use the same approaches as I have employed on a large scale system as they simply are my loose ideas for a concurrency heuristic._
 
 The following image is a rough mockup of what I would like it to look like. But we might make changes as we go.
 
@@ -385,7 +385,7 @@ public Task NoteDeleted(Guid id)
 }
 ```
 #### Handling pointer events
-Next we need to add a couple of methods to the code-behind that will handle different kinds of user input for when the user moves the sticky notes around. We first write the method that handles when a sticky note starts being moved.
+Next we need to add a couple of methods to the code-behind that will handle different kinds of user input when the user moves the sticky notes around. We first write the method that handles when a sticky note starts being moved.
 ```csharp
 private (double x, double y)? anchor;
 private Note? editNote;
