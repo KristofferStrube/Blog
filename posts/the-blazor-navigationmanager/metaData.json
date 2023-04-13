@@ -5,9 +5,11 @@
   "Teaser": "In this post, we will look at the basic capabilities of the NavigationManager, present what new features were added in ASP.NET Core 7, discuss how it fits into the Blazor/.NET ecosystem, and in the end present a scenario that is now possible with relative ease using new additions from ASP.NET Core 7.",
   "ImagePath": "images/navigation-manager.png",
   "Tags": [
-    "new-features-for-navigationmanager-in-dotnet-7"
+    "blazor",
+    "dotnet"
   ],
   "AdditionalMetaTags": [],
+  "CanonicalPostOrigin": "",
   "Content": "new-features-for-navigationmanager-in-dotnet-7 content",
   "PublishDate": "2023-02-23",
   "LastUpdatedDate": "2023-02-23"

@@ -5,9 +5,10 @@
   "Teaser": " In this post I introduce myself, show some of the projects that I have worked a lot with, and in the end talk about what I will blog about in the future.",
   "ImagePath": "images/welcome.png",
   "Tags": [
-    "welcome-to-the-blog"
+    "personal"
   ],
   "AdditionalMetaTags": [],
+  "CanonicalPostOrigin": "",
   "Content": "welcome-to-the-blog content",
   "PublishDate": "2023-02-17",
   "LastUpdatedDate": "2023-02-18"

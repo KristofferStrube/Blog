@@ -5,9 +5,11 @@
   "Teaser": "In this post we go through how to wrap the Compression Streams API in Blazor and we make a small demo that uses the wrapper.",
   "ImagePath": "images/compressions-streams.png",
   "Tags": [
-    "wrapping-compression-streams-in-blazor"
+    "dotnet",
+    "blazor"
   ],
   "AdditionalMetaTags": [],
+  "CanonicalPostOrigin": "",
   "Content": "wrapping-compression-streams-in-blazor content",
   "PublishDate": "2023-03-17",
   "LastUpdatedDate": "2023-03-17"

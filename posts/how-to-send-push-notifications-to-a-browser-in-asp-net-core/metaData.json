@@ -5,7 +5,8 @@
   "Teaser": "In this article, we will show how you can subscribe to Push Notifications using ASP.NET Core and how you can send Push Notifications from .NET as well.",
   "ImagePath": "images/how-to-send-push-notifications-to-a-browser-in-asp-net-core.png",
   "Tags": [
-    "how-to-send-push-notifications-to-a-browser-in-asp-net-core"
+    "dotnet",
+    "pwa"
   ],
   "AdditionalMetaTags": [],
   "CanonicalPostOrigin": "https://blog.elmah.io/how-to-send-push-notifications-to-a-browser-in-asp-net-core/",
