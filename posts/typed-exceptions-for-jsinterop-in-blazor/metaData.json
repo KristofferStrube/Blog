@@ -1,0 +1,16 @@
+{
+  "Title": "Typed exceptions for JSInterop in Blazor",
+  "UrlPath": "typed-exceptions-for-jsinterop-in-blazor",
+  "Description": "When developing applications in Blazor we can invoke JavaScript function from C# by using JSInterop. Many types of errors can be thrown when calling these methods. Especially if something unexpected happens like missing permissions or if one of the arguments is invalid. The errors thrown from JS get bubbled up to our method invocation in C# and we can catch these JSExceptions using a try-catch statement. The exception contain the message of the original error, but we lose the context of which error type this was which has led people to do a lot of custom error handling that instead looks for key phrases or words in the error message. In this article, we look at how the existing error-handling implementation is made in Blazor. We then look at how we can map the error types defined in the standard WebIDL specification to C# exceptions, and in the end, we show some examples of how to use this in practice when making JS invocations.",
+  "Teaser": "In this article, we look at how the existing error-handling implementation for JSInterop is made in Blazor. We then look at how we can map the error types defined in the standard WebIDL specification to C# exceptions, and in the end, we show some examples of how to use this in practice when making JS invocations.",
+  "ImagePath": "images/typed-exceptions-for-jsinterop-in-blazor.png",
+  "Tags": [
+    "blazor",
+    "dotnet"
+  ],
+  "AdditionalMetaTags": [],
+  "CanonicalPostOrigin": "",
+  "Content": "typed-exceptions-for-jsinterop-in-blazor content",
+  "PublishDate": "2023-05-26",
+  "LastUpdatedDate": "2023-05-26"
+}
