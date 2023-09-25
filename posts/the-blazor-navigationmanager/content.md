@@ -1,6 +1,3 @@
-<script>
-    hljs.highlightAll();
-</script>
 ### Members from before ASP.NET Core 7
 First, let's see what actions were possible before ASP.NET Core 7. I will give a shallow overview of the commonly used properties and methods of the `NavigationManager`.
 #### string BaseUri
@@ -93,7 +90,7 @@ In this scenario, we will make a simple form that can be submitted to an API. We
 #### Modal Component
 Let's first make a simple modal component that can work as a pop-up that forces the user to make a decision.
 ##### Shared/Modal.razor
-```cshtml-razor
+```razor
 @if (!_isShown) return;
 
 <div class="modal-container" @onclick="Close">
@@ -173,7 +170,7 @@ And let's use a little styling to make the modal _"pretty"_.
 #### Index page
 Next, we will make the markdown for our actual page which will be pretty simple because we encapsulated the modal behavior in its own component.
 ##### index.razor
-```cshtml-razor
+```razor
 @page "/"
 
 <Modal @ref=PreventModal Title="You are about to leave">

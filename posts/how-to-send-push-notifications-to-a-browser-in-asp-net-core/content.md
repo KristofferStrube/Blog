@@ -1,7 +1,3 @@
-<script>
-    hljs.highlightAll();
-</script>
-
 *This is a cross-post of this ASP.NET Core MVC-focused post by me: [https://blog.elmah.io/how-to-send-push-notifications-to-a-browser-in-asp-net-core/](https://blog.elmah.io/how-to-send-push-notifications-to-a-browser-in-asp-net-core/)*
 
 You can find the full code for the project built in this post, in this GitHub Repository: [https://github.com/KristofferStrube/PWAPushNotification](https://github.com/KristofferStrube/PWAPushNotification)
@@ -263,7 +259,7 @@ This listener gets a package that contains a reference to the notification and a
 
 ### Pushing the notification
 We have made it to the last part: Sending the push notification. First, we make a new view in which we will pick a client to whom we will push a message. This is the `Notify` view that we referenced earlier.
-```html
+```razor
 @model List<string>
 
 <h1>Send Push Notifications</h1>

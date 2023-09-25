@@ -1,7 +1,3 @@
-<script>
-    hljs.highlightAll();
-</script>
-
 *Disclaimer: "Most modern browsers" means Chrome, Edge, Safari, and Opera. (Note that the list doesn't include Firefox)*
 
 ### Setup project
@@ -240,7 +236,7 @@ dotnet add package KristofferStrube.Blazor.CompressionStreams
 ```
 Once we have added the library reference to our Blazor WASM project we can begin to make our sample page. We will simply modify the pre-generated page `Index.razor`. We define the following scaffold for our page:
 ##### Index.razor
-```csharp
+```razor
 @page "/"
 @using KristofferStrube.Blazor.CompressionStreams
 
@@ -316,7 +312,7 @@ Then we are done. Let's run it and see the result.
 dotnet run
 ```
 And then we go to the index page. Normally I would have made a video for this, but this sample isn't really that interesting, so I've just copied the result here as what is actually interesting is that the text was compressed and that the resulting content was intact.
-```
+```bash
 Compressed size was: 3696
 Decompressed size was: 11481
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et ex a dolor pulvinar euismod... (continuing)

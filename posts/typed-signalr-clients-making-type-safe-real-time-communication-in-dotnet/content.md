@@ -162,7 +162,7 @@ public async Task UpdateNoteText(Guid id, string text)
 }
 ```
 The method takes the `id` of an existing sticky note and the updated `text`. We first go through all the notes and find the one that has a matching `Id`. If there was none then we simply return as the client must then have been in some bad state which we should ignore. Then we call the method `TryLock` on the `Note` which tries to lock it so that only this user can change it for a short time. If it was not successful in locking the sticky note then we update the original calling client with the current state of the note so that it knows that this is locked by someone else. If it was successful then we update the text and notify all other clients of this new state. We don't need to notify the original client in this case as it will optimistically assume that it could get the lock. Let's implement the `TryLock` method on the `Note` class now while we are here. To implement this we first need two secondary methods which will become useful in other scenarios: A method for checking if a user *can* lock and a method that sets the lock. We add the following method called `CanLock` to our `Note` model.
-```
+```csharp
 public bool CanLock(string? connectionId) =>
     DateTimeOffset.UtcNow.Subtract(LastEdited).TotalSeconds > 1
     || LastLockingUser is null
@@ -308,7 +308,7 @@ internal class HubClientProxyAttribute : Attribute { }
 ```
 The attributes are then used on these partial extension methods which make the source generator generate separate partial methods.
 ##### HubConnectionExtensions.cs
-```
+```csharp
 public static partial class HubConnectionExtensions
 {
     [HubClientProxy]
@@ -555,7 +555,3 @@ Before closing off, I promised some people to talk about why I think it makes se
 
 ### Conclusion
 In this post, we have walked through an example application that utilizes real-time communication. We have explored some approaches to manage concurrent work and interactions. We have looked at how to use typed SignalR hubs and how to use typed SignalR clients to enable end-to-end type safe real-time communication. In the end, we presented a demo of the project and reflected on why it makes sense to use Blazor WASM together with SignalR. We might continue this project in a future blog post touching on scaling using Azure SignalR Service and how to authenticate SignalR connection. If you have any questions or comments for this post then feel free to reach out.
-
-<script>
-    hljs.highlightAll();
-</script>

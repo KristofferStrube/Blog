@@ -107,6 +107,10 @@ code {
     color: red;
 }
 
+pre {
+    font-size: medium;
+}
+
 img {
     max-width: 100%;
 }

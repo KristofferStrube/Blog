@@ -1,0 +1,15 @@
+{
+  "Title": "Reading notes from Performance Improvements in .NET 8",
+  "UrlPath": "reading-notes-from-performance-improvements-in-dotnet-8",
+  "Description": "For the last couple of years, Stephen Toub has posted about the performance improvements coming to the next release of .NET. People have jokingly called these posts \u0022books\u0022 because they are very long, and this year is no exception. This year, his post on .NET 8 is 221 pages if you print the entire post with no margins and it\u0027s packed with interesting details. At my current day job, I work with practical data-intensive systems in .NET where improvements like the ones Stephen Toub presents can have a huge impact. In this post, I will share my reading notes from Stephen Toub\u0027s post on Performance Improvements in .NET 8 to give you a quick insight into what I found interesting. I especially found the improvements made to the JIT compiler interesting, so I will primarily touch on those.",
+  "Teaser": "In this post, I will share my reading notes from Stephen Toub\u0027s post on Performance Improvements in .NET 8 to give you a quick insight into what I found interesting. I especially found the improvements made to the JIT compiler interesting, so I will primarily touch on those.",
+  "ImagePath": "images/reading-notes-from-performance-improvements-in-dotnet-8.png",
+  "Tags": [
+    "dotnet"
+  ],
+  "AdditionalMetaTags": [],
+  "CanonicalPostOrigin": "",
+  "Content": "reading-notes-from-performance-improvements-in-dotnet-8 content",
+  "PublishDate": "2023-09-26",
+  "LastUpdatedDate": "2023-09-26"
+}

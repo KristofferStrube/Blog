@@ -475,7 +475,3 @@ The plan is to also make an error-handling version of the `IJSUnmarshalledRuntim
 
 ### Conclusion
 At the start of this post, we saw some of the existing approaches for handling different types of exceptions when making JSInterop calls in Blazor. And we now know that this is because we don't get the name of the exception extracted when the error is returned to C#. We then found a way to catch more details of the error on the JS side of the invocation and re-throw these details back to Blazor where we could then unpack the name, message, and stack trace separately and map them to custom C# exception types. In the end, I presented the [Blazor.WebIDL](https://github.com/KristofferStrube/Blazor.WebIDL) package that has made this `ErrorHandlingJSRuntime` easy to add to any project where you want to have typed exceptions when using JSInterop. We also went through a small example of using the package to make handle different error scenarios. I would be very happy if people want to test the package and give feedback on the GitHub repository so that I can make sure that it is both easy and safe to use. The library is still in alpha while I test it in some of my libraries, but there won't go long before I make a first full release. And as always, if you have any feedback or questions for this post then feel free to reach out to me on Mastodon or Twitter.
-
-<script>
-    hljs.highlightAll();
-</script>

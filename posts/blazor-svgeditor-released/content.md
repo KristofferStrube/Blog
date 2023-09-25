@@ -1,6 +1,3 @@
-<script>
-    hljs.highlightAll();
-</script>
 ### Features
 Before we look at how we can use the package, we will go through some of the central features of the editor, accompanied by some small videos that show those features.
 
