@@ -60,7 +60,7 @@ The method first checks that the string is longer than `2` characters, as we can
 
 ### Constant Folding
 Constant folding is when the JIT can take an expression that only consists of constants and precompute the expression as it will always give the same result. .NET 8 has made many improvements to constant folding that make it able to recognize more types as being constant, and then employ the folding on these. From what I gathered from the post the most important feature is the support for constant folding of the lengths of `ReadOnlySpan`, `string`, and any type of array. This plays nicely together with the bounds-checking improvements as the JIT can now inline the length of a constant string as a constant itself which again means that it can access parts of the string within its bounds before even compiling, essentially compacting the whole expression to its result before emitting the IL code for that part. The following is a somewhat simple sample:
-```
+```csharp
 private static readonly string cat = "CAT";
 
 private bool CatEndsWithT() => cat.Length == 3 && (cat[^1]  | 0x20) == 't';
