@@ -370,19 +370,19 @@ public override void HandlePointerMove(PointerEventArgs eventArgs)
 }
 ```
 We don't want the `Connector` to handle a pointer move in any other case than when we are adding a new one. In this case, we set the end position equal to the pointer position, which is parsed to the method. After this, we update the position of the start position so that it is oriented towards where the cursor is currently. Let's see how we do that now. This includes a tiny bit of trigonometry, so be warned.
-```
-    public void SetStart((double x, double y) towards)
-    {
-        double differenceX = towards.x - From!.Cx;
-        double differenceY = towards.y - From!.Cy;
-        double distance = Math.Sqrt((differenceX * differenceX) + (differenceY * differenceY));
+```csharp
+public void SetStart((double x, double y) towards)
+{
+    double differenceX = towards.x - From!.Cx;
+    double differenceY = towards.y - From!.Cy;
+    double distance = Math.Sqrt((differenceX * differenceX) + (differenceY * differenceY));
 
-        if (distance > 0)
-        {
-            X1 = From!.Cx + (differenceX / distance * 50);
-            Y1 = From!.Cy + (differenceY / distance * 50);
-        }
+    if (distance > 0)
+    {
+        X1 = From!.Cx + (differenceX / distance * 50);
+        Y1 = From!.Cy + (differenceY / distance * 50);
     }
+}
 ```
 We first calculate the difference between the point we are drawing toward and the center of the `Node` we draw from for the `x` and `y` axes, respectively. Then we calculate the Euclidean distance between the two same points using the Pythagorean theorem. If the cursor is any distance from the `From` `Node`, we update the start of the line. We wish to start the line at the edge of the `From` `Node` circle and find the point closest to the cursor. We already have a vector that points to the cursor `(differenceX, differenceY)`, so we start with normalizing it by dividing it by its length, which is our `distance`, and then we multiply it with `50` to make that vector point out to the edge of the `Node` as that has a radius of `50`. Then we add this re-scaled vector to the center of the `From` `Node`.
 
@@ -418,7 +418,7 @@ public new async Task SelectAsync(MouseEventArgs eventArgs)
 We wish to change the behavior of the `SelectAsync` method which is invoked when the pointer is pressed down on a `Node`, so we `new` the `SelectAsync` method in the component. In this, we have two cases. If the `SVGEditor` is in `Add` mode and any `Connector` is currently selected, then we add the `Node` to the list of selected shapes. Else we call the base implementation of the `SelectAsync` method.
 
 Now we can select a `Node` while a `Connector` is being added. Then we need to handle when the pointer is being raised while the `Connecter` is added. We override the `HandlePointerUp` on the `Connector` class for this.
-```
+```csharp
 public override void HandlePointerUp(PointerEventArgs eventArgs)
 {
     if (SVG.EditMode is EditMode.Add

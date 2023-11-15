@@ -50,7 +50,7 @@ And if we try to capture the exception and read its `Message` we still get the s
 }
 ```
 And this message isn't really a nice user-facing error to get. So what we have done earlier is either to forget entirely what the exception said and just write something like **"Something bad happened!"** which doesn't help anyone. Or the better case which is to check for matching parts of the exception message. That could look something like this if we expect that JS could either throw an `AbortError` or some other unexpected exception.
-```
+```razor
 @inject IJSRuntime JSRuntime
 @inject ILogger Logger
 
