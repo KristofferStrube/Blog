@@ -1,0 +1,16 @@
+{
+  "Title": "A holistic comparison of Blazor WASM performance from ASP.NET Core 5 to 8",
+  "UrlPath": "a-holistic-comparison-of-blazor-wasm-performance-from-aspnet-core-5-to-8",
+  "Description": "Every year, many small improvements are made to .NET and ASP.NET Core that combined make the framework perform even better. Understanding what these improvements will mean in everyday use cases can be difficult. We could dissect all the improvements individually and make statements like \u0022Indexing in arrays has become 4000% faster when you do X!\u0022 or some other absurd comparison. But what I find just as interesting is how much faster some common tasks consisting of many operations executed in a concrete context have become. In this article, we will attempt to compare the performance of a varied set of tasks in Blazor WASM with and without AOT from ASP.NET Core 5 up to 8.",
+  "Teaser": "In this article, we will attempt to compare the performance of a varied set of tasks in Blazor WASM with and without AOT from ASP.NET Core 5 up to 8.",
+  "ImagePath": "images/a-holistic-comparison-of-blazor-wasm-performance-from-aspnet-core-5-to-8.png",
+  "Tags": [
+    "blazor",
+    "dotnet"
+  ],
+  "AdditionalMetaTags": [],
+  "CanonicalPostOrigin": "",
+  "Content": "a-holistic-comparison-of-blazor-wasm-performance-from-aspnet-core-5-to-8 content",
+  "PublishDate": "2024-01-24",
+  "LastUpdatedDate": "2024-01-24"
+}
