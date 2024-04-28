@@ -1,0 +1,16 @@
+{
+  "Title": "Cancelling Long-Running JSInterop Calls",
+  "UrlPath": "cancelling-long-running-jsinterop-calls",
+  "Description": "When making JSInterop calls in Blazor, the invocations can vary in duration depending on what function is invoked. If these invocations take a long time, we want to be able to cancel them if we no longer need to finish the task, i.e., if the user navigates away from the current page or actively cancels some action. It is possible to use the CancellationToken that we are all familiar with from async tasks in .NET, but this only makes it so that deserialization of the response is not handled if the invocation has already started. In this article, we will show how to cancel a JSInterop invocation in the middle of its invocation using the AbortController and AbortSignal types and present how the Blazor.DOM library makes this easy.",
+  "Teaser": "In this article, we will show how to cancel a JSInterop invocation in the middle of its invocation using the AbortController and AbortSignal types and present how the Blazor.DOM library makes this easy.",
+  "ImagePath": "images/cancelling-long-running-jsinterop-calls.png",
+  "Tags": [
+    "blazor",
+    "dotnet"
+  ],
+  "AdditionalMetaTags": [],
+  "CanonicalPostOrigin": "",
+  "Content": "cancelling-long-running-jsinterop-calls content",
+  "PublishDate": "2024-04-29",
+  "LastUpdatedDate": "2024-04-29"
+}
