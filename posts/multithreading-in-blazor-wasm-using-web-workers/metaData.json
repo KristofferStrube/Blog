@@ -1,0 +1,16 @@
+{
+  "Title": "Multithreading in Blazor WASM using Web Workers",
+  "UrlPath": "multithreading-in-blazor-wasm-using-web-workers",
+  "Description": "Blazor has multiple rendering models, each with its pros and cons. One of the most popular is Blazor WASM, which enables a highly interactive web application running entirely in the client\u0027s browser. But its forte is also its weakness; when you offload the work of running the application to the browser, you must live under its constraints. One of these constraints is that each window in a browser is inherently single-threaded. A way to still do work on multiple threads is by using Web Workers, which are analog to Threads in .NET. In this article, we will go through how to use two of the most prominent Blazor Web Workers OSS libraries; we will show a separate Web Workers implementation that I have created myself which uses the experimental-wasm .NET workload and, in the end, do a little comparison of how each of them performs for a variety of workloads.",
+  "Teaser": "In this article, we will go through how to use two of the most prominent Blazor Web Workers OSS libraries; we will show a separate Web Workers implementation that I have created myself which uses the experimental-wasm .NET workload and, in the end, do a little comparison of how each of them performs for a variety of workloads.",
+  "ImagePath": "images/multithreading-in-blazor-wasm-using-web-workers.png",
+  "Tags": [
+    "blazor",
+    "dotnet"
+  ],
+  "AdditionalMetaTags": [],
+  "CanonicalPostOrigin": "",
+  "Content": "multithreading-in-blazor-wasm-using-web-workers content",
+  "PublishDate": "2024-07-17",
+  "LastUpdatedDate": "2024-07-17"
+}
